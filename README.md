@@ -1,8 +1,5 @@
 # Coursera Final Project for Devloping Frount-End Apps with React
-<p>Check out the page at the link below!
-
-https://cscranton5.github.io/e-plantShopping/</p>
-
+<a href="https://cscranton5.github.io/e-plantShopping/" target="_blank">Go to Site Here</a>
 
 This website should contain the following things:
 
