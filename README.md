@@ -21,20 +21,19 @@ This website should contain the following things:
 ## Process to deploy this Site on Github Pages
 
 1. To deploy your react application in GitHub you need to install gh-pages. This allows you to use it as a tool for deploying your project to GitHub Pages. Perform given command in the terminal
-    <pre> ```npm install gh-pages --save-dev``` </pre>
+    <pre>npm install gh-pages --save-dev  </pre>
 
 3. Add given lines before "build": "vite build" in package.json file.
-  <pre> 
-    ```predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",```
-  </pre>
+  <pre>
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",</pre>
 
 
 4. Then in the vite.config.js file add this line before plugins: [react()]
-  <pre> ```base: "/YOUR_REPOSITORY_NAME",``` </pre>
+  <pre>base: "/YOUR_REPOSITORY_NAME", </pre>
 
 5. Now perform deploy command in the terminal to executes the "deploy" script defined in the package.json file, deploying the project to GitHub Pages using the gh-pages tool.
-  npm run deploy
+  <pre>npm run deploy</pre>
 
 6. Perform git add and git commit commands to update changes in your code. Then perform git push command to update your GitHub repository for proper code management.
 
