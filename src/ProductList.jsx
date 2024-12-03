@@ -303,7 +303,7 @@ const handlePlantsClick = (e) => {
 
             {plantsArray.map((category, index) => (
                 <div key={index}>
-                    <h1><div>{category.category}</div></h1>
+                    <h1 ><div className="category-name">{category.category}</div></h1>
                     <div className="product-list">
                         {category.plants.map((plant, plantIndex) => (
                         <div className="product-card" key={plantIndex}>
@@ -318,7 +318,8 @@ const handlePlantsClick = (e) => {
                     </div>
                 </div>
             ))}
-
+            <footer>This Site Was made my Carter Scranton for the IBM FullStack Developer Professional Certificate on Coursera</footer>
+            <div></div>
         </div>
  ) :  (
     <CartItem onContinueShopping={handleContinueShopping}/>

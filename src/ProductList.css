@@ -59,7 +59,17 @@ body {
     justify-content: center;
 }
 
-/* Product Card */
+.category-name {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    margin-top: 20px;
+    font-size: 2.5vw;
+    text-decoration: underline;
+
+}
+
+/* Product Card */ 
 .product-card {
     flex: 0 0 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap */
     max-width: calc(26.33% - 20px); /* Adjust max-width for 3 cards per row with 20px gap */
